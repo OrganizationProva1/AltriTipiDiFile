@@ -4,7 +4,7 @@ OPERE PUBBLICHE OPEN
 Monitoraggio Territoriale Interventi in Piemonte
 
 ## Notes
-The following documentation, and all the documentation present in the project components adhere to the RFC-2119(https://tools.ietf.org/html/rfc2119) regarding the requirement level key words.
+The following documentation, and all the documentation present in the project components adhere to the [RFC-2119](https://tools.ietf.org/html/rfc2119) regarding the requirement level key words.
 
 # Project Description
 This is a multi-module project handling the purchasing cycle for the Public Administration.
@@ -12,12 +12,12 @@ This is a multi-module project handling the purchasing cycle for the Public Admi
 The modules are as follow:
 
 backend services:
-motibe (https://github.com/opere-pubbliche-open/moti-motibe): REST service implementation
+[motibe](https://github.com/opere-pubbliche-open/moti-motibe): REST service implementation
 frontend services:
-motife (https://github.com/opere-pubbliche-open/moti-motife): Angular application
+[motife](https://github.com/opere-pubbliche-open/moti-motife): Angular application
 transversal:
-motidb (https://github.com/opere-pubbliche-open/moti-motidb): database implementation, with all the required scripts
-motimanual (https://github.com/opere-pubbliche-open/moti-motimanual): user manual
+[motidb](https://github.com/opere-pubbliche-open/moti-motidb): database implementation, with all the required scripts
+[motimanual](https://github.com/opere-pubbliche-open/moti-motimanual): user manual
 motiscript: CLI scripts to be invoked by a scheduler (WIP)
 # Configurations
 For the configuration of each single module, please refer to the README.md file which is present in each module.
@@ -38,7 +38,7 @@ We partially use Semantic Versioning for versioning. (http://semver.org)
 A major version increment in SemVer standard corresponds to a non-compatible upgrade of the project; yet a non-compatible upgrade to the project not necessarily corresponds to a major version increment.
 
 # Authors
-See the list of contributors who participated in this project in file AUTHORS.txt(https://github.com/opere-pubbliche-open/moti/AUTHORS.txt).
+See the list of contributors who participated in this project in file [AUTHORS.txt](https://github.com/opere-pubbliche-open/moti/AUTHORS.txt).
 
 # Copyrights
 See the list of copyrighters in this project in file Copyrights.txt
@@ -47,4 +47,4 @@ See the list of copyrighters in this project in file Copyrights.txt
 # License
 The source code is licensed under the European Union Public Licence 1.2 or later.
 SPDX-License-Identifier: EUPL-1.2-or-later
-See the "EUPL v1_2 IT-LICENSE.txt(https://github.com/opere-pubbliche-open/moti/EUPL v1_2 IT-LICENSE.tx)" and "EUPL v1_2 EN-LICENSE.txt(https://github.com/opere-pubbliche-open/moti/EUPL v1_2 EN-LICENSE.txt)" files for details.
+See the "[EUPL v1_2 IT-LICENSE.txt](https://github.com/opere-pubbliche-open/moti/EUPL v1_2 IT-LICENSE.tx)" and "[EUPL v1_2 EN-LICENSE.txt](https://github.com/opere-pubbliche-open/moti/EUPL v1_2 EN-LICENSE.txt)" files for details.
