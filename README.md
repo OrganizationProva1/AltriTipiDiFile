@@ -30,11 +30,16 @@ Please refer to the Installing section for specifications about the installation
 # Prerequisites
 The Java projects are written in UTF-8 and are compatible with Java 11.0.6
 Apache Maven 3.6.3 for the building process (the corresponding Maven Wrapper scripts are present to enable the compilation even without the dependency)
+
 All the libraries listed in the BOM.csv must be accessible to compile the project. The libraries are published at http://repart.csi.it which is set as the Maven repository in the pom.xml files
+
 A "Java EE8 full profile"-compatible Application Server (tested on JBoss Wildfly 17.0.1)
+
 The correct version for the DBMS (tested on PostgreSQL 9.6.10)
+
 # Versioning
 We partially use Semantic Versioning for versioning. (http://semver.org)
+
 A major version increment in SemVer standard corresponds to a non-compatible upgrade of the project; yet a non-compatible upgrade to the project not necessarily corresponds to a major version increment.
 
 # Authors
@@ -47,4 +52,5 @@ See the list of copyrighters in this project in file Copyrights.txt
 # License
 The source code is licensed under the European Union Public Licence 1.2 or later.
 SPDX-License-Identifier: EUPL-1.2-or-later
+
 See the "[EUPL v1_2 IT-LICENSE.txt](https://github.com/opere-pubbliche-open/moti/EUPL v1_2 IT-LICENSE.tx)" and "[EUPL v1_2 EN-LICENSE.txt](https://github.com/opere-pubbliche-open/moti/EUPL v1_2 EN-LICENSE.txt)" files for details.
